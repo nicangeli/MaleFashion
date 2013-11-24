@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1071C2F4CC41E7ACEE51AA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAA9F4B3DAC43EABF2A75EF /* libPods.a */; };
+		896B59551842839F00007804 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896B59541842839F00007804 /* AudioToolbox.framework */; };
+		896B5957184283A700007804 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896B5956184283A700007804 /* CFNetwork.framework */; };
+		896B5959184283B700007804 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896B5958184283B700007804 /* CoreLocation.framework */; };
+		896B595B184283C300007804 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 896B595A184283C300007804 /* libz.1.1.3.dylib */; };
+		896B595D184283CC00007804 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896B595C184283CC00007804 /* MobileCoreServices.framework */; };
+		896B595F184283D400007804 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896B595E184283D400007804 /* QuartzCore.framework */; };
+		896B5961184283DB00007804 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896B5960184283DB00007804 /* Security.framework */; };
+		896B5963184283E600007804 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896B5962184283E600007804 /* StoreKit.framework */; };
+		896B5965184283EE00007804 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896B5964184283EE00007804 /* SystemConfiguration.framework */; };
+		896B596B1842AF7000007804 /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 896B596A1842AF7000007804 /* OnboardingViewController.m */; };
 		898FD29D18427FB7007BEA38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898FD29C18427FB7007BEA38 /* Foundation.framework */; };
 		898FD29F18427FB7007BEA38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898FD29E18427FB7007BEA38 /* CoreGraphics.framework */; };
 		898FD2A118427FB8007BEA38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898FD2A018427FB8007BEA38 /* UIKit.framework */; };
@@ -14,7 +25,6 @@
 		898FD2A918427FB8007BEA38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 898FD2A818427FB8007BEA38 /* main.m */; };
 		898FD2AD18427FB8007BEA38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 898FD2AC18427FB8007BEA38 /* AppDelegate.m */; };
 		898FD2B018427FB8007BEA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898FD2AE18427FB8007BEA38 /* Main.storyboard */; };
-		898FD2B318427FB8007BEA38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898FD2B218427FB8007BEA38 /* ViewController.m */; };
 		898FD2B518427FB8007BEA38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898FD2B418427FB8007BEA38 /* Images.xcassets */; };
 		898FD2BC18427FB8007BEA38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898FD2BB18427FB8007BEA38 /* XCTest.framework */; };
 		898FD2BD18427FB8007BEA38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898FD29C18427FB7007BEA38 /* Foundation.framework */; };
@@ -34,6 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AE4478DD27542C799EECA4B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		3DAA9F4B3DAC43EABF2A75EF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		896B59541842839F00007804 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		896B5956184283A700007804 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		896B5958184283B700007804 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		896B595A184283C300007804 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		896B595C184283CC00007804 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		896B595E184283D400007804 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		896B5960184283DB00007804 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		896B5962184283E600007804 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		896B5964184283EE00007804 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		896B59691842AF7000007804 /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
+		896B596A1842AF7000007804 /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
 		898FD29918427FB7007BEA38 /* MaleHighstreet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaleHighstreet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		898FD29C18427FB7007BEA38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		898FD29E18427FB7007BEA38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +68,6 @@
 		898FD2AB18427FB8007BEA38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		898FD2AC18427FB8007BEA38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		898FD2AF18427FB8007BEA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		898FD2B118427FB8007BEA38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		898FD2B218427FB8007BEA38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		898FD2B418427FB8007BEA38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		898FD2BA18427FB8007BEA38 /* MaleHighstreetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaleHighstreetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		898FD2BB18427FB8007BEA38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,9 +81,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896B5965184283EE00007804 /* SystemConfiguration.framework in Frameworks */,
+				896B5963184283E600007804 /* StoreKit.framework in Frameworks */,
+				896B5961184283DB00007804 /* Security.framework in Frameworks */,
+				896B595F184283D400007804 /* QuartzCore.framework in Frameworks */,
+				896B595D184283CC00007804 /* MobileCoreServices.framework in Frameworks */,
+				896B595B184283C300007804 /* libz.1.1.3.dylib in Frameworks */,
+				896B5959184283B700007804 /* CoreLocation.framework in Frameworks */,
 				898FD29F18427FB7007BEA38 /* CoreGraphics.framework in Frameworks */,
+				896B5957184283A700007804 /* CFNetwork.framework in Frameworks */,
+				896B59551842839F00007804 /* AudioToolbox.framework in Frameworks */,
 				898FD2A118427FB8007BEA38 /* UIKit.framework in Frameworks */,
 				898FD29D18427FB7007BEA38 /* Foundation.framework in Frameworks */,
+				6B1071C2F4CC41E7ACEE51AA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +110,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		896B59661842AF1200007804 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				896B59691842AF7000007804 /* OnboardingViewController.h */,
+				896B596A1842AF7000007804 /* OnboardingViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		896B59671842AF1E00007804 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				898FD2AE18427FB8007BEA38 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		896B59681842AF2200007804 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		898FD29018427FB7007BEA38 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +141,7 @@
 				898FD2C118427FB8007BEA38 /* MaleHighstreetTests */,
 				898FD29B18427FB7007BEA38 /* Frameworks */,
 				898FD29A18427FB7007BEA38 /* Products */,
+				2AE4478DD27542C799EECA4B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +157,20 @@
 		898FD29B18427FB7007BEA38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				896B5964184283EE00007804 /* SystemConfiguration.framework */,
+				896B5962184283E600007804 /* StoreKit.framework */,
+				896B5960184283DB00007804 /* Security.framework */,
+				896B595E184283D400007804 /* QuartzCore.framework */,
+				896B595C184283CC00007804 /* MobileCoreServices.framework */,
+				896B595A184283C300007804 /* libz.1.1.3.dylib */,
+				896B5958184283B700007804 /* CoreLocation.framework */,
+				896B5956184283A700007804 /* CFNetwork.framework */,
+				896B59541842839F00007804 /* AudioToolbox.framework */,
 				898FD29C18427FB7007BEA38 /* Foundation.framework */,
 				898FD29E18427FB7007BEA38 /* CoreGraphics.framework */,
 				898FD2A018427FB8007BEA38 /* UIKit.framework */,
 				898FD2BB18427FB8007BEA38 /* XCTest.framework */,
+				3DAA9F4B3DAC43EABF2A75EF /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,9 +180,9 @@
 			children = (
 				898FD2AB18427FB8007BEA38 /* AppDelegate.h */,
 				898FD2AC18427FB8007BEA38 /* AppDelegate.m */,
-				898FD2AE18427FB8007BEA38 /* Main.storyboard */,
-				898FD2B118427FB8007BEA38 /* ViewController.h */,
-				898FD2B218427FB8007BEA38 /* ViewController.m */,
+				896B59681842AF2200007804 /* Models */,
+				896B59671842AF1E00007804 /* Views */,
+				896B59661842AF1200007804 /* Controllers */,
 				898FD2B418427FB8007BEA38 /* Images.xcassets */,
 				898FD2A318427FB8007BEA38 /* Supporting Files */,
 			);
@@ -159,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 898FD2CB18427FB8007BEA38 /* Build configuration list for PBXNativeTarget "MaleHighstreet" */;
 			buildPhases = (
+				92CE7428882F4AA998095D6A /* Check Pods Manifest.lock */,
 				898FD29518427FB7007BEA38 /* Sources */,
 				898FD29618427FB7007BEA38 /* Frameworks */,
 				898FD29718427FB7007BEA38 /* Resources */,
+				82D28D62541842C4B9C18F4B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,12 +312,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82D28D62541842C4B9C18F4B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CE7428882F4AA998095D6A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		898FD29518427FB7007BEA38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898FD2B318427FB8007BEA38 /* ViewController.m in Sources */,
+				896B596B1842AF7000007804 /* OnboardingViewController.m in Sources */,
 				898FD2AD18427FB8007BEA38 /* AppDelegate.m in Sources */,
 				898FD2A918427FB8007BEA38 /* main.m in Sources */,
 			);
@@ -375,6 +476,7 @@
 		};
 		898FD2CC18427FB8007BEA38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE4478DD27542C799EECA4B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +490,7 @@
 		};
 		898FD2CD18427FB8007BEA38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE4478DD27542C799EECA4B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -460,6 +563,7 @@
 				898FD2CD18427FB8007BEA38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		898FD2CE18427FB8007BEA38 /* Build configuration list for PBXNativeTarget "MaleHighstreetTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +572,7 @@
 				898FD2D018427FB8007BEA38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
