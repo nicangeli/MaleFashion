@@ -12,5 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (strong, nonatomic) NSArray *categories;
 
 @end

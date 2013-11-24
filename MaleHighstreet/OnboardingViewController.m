@@ -35,6 +35,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     self.pageImages = [[NSMutableArray alloc] init];
+    self.categories = [NSArray arrayWithObjects:@"Sporty", @"Casual", @"SmartCasual", @"Office", @"Classic", nil];
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -149,6 +150,17 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([segue.identifier isEqualToString:@"MoveToCategories"]) {
+        //NSLog(@"%d", self.pageControl.currentPage);
+        NSString *category = [self.categories objectAtIndex:self.pageControl.currentPage];
+        PFUser *user = [PFUser currentUser];
+        user[@"category"] = category;
+        [user saveInBackground];
+    }
 }
 
 @end
