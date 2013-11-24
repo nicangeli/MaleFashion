@@ -10,6 +10,13 @@
 
 @interface OnboardingViewController ()
 
+@property (nonatomic, strong) NSMutableArray *pageImages;
+@property (nonatomic, strong) NSMutableArray *pageViews;
+
+- (void)loadVisiblePages;
+- (void)loadPage:(NSInteger)page;
+- (void)purgePage:(NSInteger)page;
+
 @end
 
 @implementation OnboardingViewController
