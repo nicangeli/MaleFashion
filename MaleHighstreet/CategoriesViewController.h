@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CategoriesViewController : UIViewController
+@interface CategoriesViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+
+@property (nonatomic, weak) IBOutlet UICollectionView *collectionView;
+@property (nonatomic, strong) NSArray *categories;
 
 @end
