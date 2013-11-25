@@ -25,6 +25,7 @@
 		896B59751842B37600007804 /* sporty.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B59701842B37600007804 /* sporty.png */; };
 		896B59791842C1C100007804 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 896B59781842C1C100007804 /* CategoriesViewController.m */; };
 		896B597C1842C7C700007804 /* CategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 896B597B1842C7C700007804 /* CategoryCell.m */; };
+		896B597F1842CDD200007804 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 896B597E1842CDD200007804 /* CollectionViewController.m */; };
 		898FD29D18427FB7007BEA38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898FD29C18427FB7007BEA38 /* Foundation.framework */; };
 		898FD29F18427FB7007BEA38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898FD29E18427FB7007BEA38 /* CoreGraphics.framework */; };
 		898FD2A118427FB8007BEA38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898FD2A018427FB8007BEA38 /* UIKit.framework */; };
@@ -73,6 +74,8 @@
 		896B59781842C1C100007804 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
 		896B597A1842C7C700007804 /* CategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCell.h; sourceTree = "<group>"; };
 		896B597B1842C7C700007804 /* CategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCell.m; sourceTree = "<group>"; };
+		896B597D1842CDD200007804 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		896B597E1842CDD200007804 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		898FD29918427FB7007BEA38 /* MaleHighstreet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaleHighstreet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		898FD29C18427FB7007BEA38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		898FD29E18427FB7007BEA38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,6 +138,8 @@
 				896B59781842C1C100007804 /* CategoriesViewController.m */,
 				896B597A1842C7C700007804 /* CategoryCell.h */,
 				896B597B1842C7C700007804 /* CategoryCell.m */,
+				896B597D1842CDD200007804 /* CollectionViewController.h */,
+				896B597E1842CDD200007804 /* CollectionViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -390,6 +395,7 @@
 			files = (
 				896B596B1842AF7000007804 /* OnboardingViewController.m in Sources */,
 				896B597C1842C7C700007804 /* CategoryCell.m in Sources */,
+				896B597F1842CDD200007804 /* CollectionViewController.m in Sources */,
 				898FD2AD18427FB8007BEA38 /* AppDelegate.m in Sources */,
 				896B59791842C1C100007804 /* CategoriesViewController.m in Sources */,
 				898FD2A918427FB8007BEA38 /* main.m in Sources */,
