@@ -8,6 +8,7 @@
 
 #import "CategoriesViewController.h"
 #import "CategoryCell.h"
+#import "CollectionViewController.h"
 
 @interface CategoriesViewController ()
 
@@ -52,6 +53,16 @@
 -(void)collectionView:(UICollectionView *)cv didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
 
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([segue.identifier isEqualToString:@"CategorySelected"]) {
+        CategoryCell *cc = (CategoryCell *)sender;
+        CollectionViewController *destination = [segue destinationViewController];
+        destination.category = cc.category.text;
+        NSLog(@"%@", cc.category.text);
+    }
 }
 
 - (void)didReceiveMemoryWarning
